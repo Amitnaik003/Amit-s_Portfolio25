@@ -5,7 +5,7 @@
 // Place all images in the "img" folder inside the "public" directory and reference them using the path: "/img/FILE_NAME".
 // This is the ONLY file you need to edit to customize your entire portfolio!
 
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit, FaGithub, FaFigma, FaServer, FaDatabase, FaLinkedin } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit, FaGithub, FaFigma, FaServer, FaLinkedin } from 'react-icons/fa';
 import { 
   SiTypescript, 
   SiNextdotjs, 
@@ -18,9 +18,8 @@ import {
   SiPostman, 
   SiPostgresql,
   SiSocketdotio,
-  SiFirebase ,
-  SiGooglemaps ,
   SiVite,
+  SiGooglemaps
 } from 'react-icons/si';
 import { FiHome, FiMail } from 'react-icons/fi';
 import { TbUserSquare } from 'react-icons/tb';
@@ -140,29 +139,10 @@ export const navbarData: NavbarItem[] = [
   { name: "About", type: "scroll", icon: TbUserSquare, size: "18px" },
   { name: "Projects", type: "scroll", icon: LuSquareCode, size: "18px" },
   { name: "Contact", type: "scroll", icon: FiMail, size: "18px" },
-  { 
-    name: "LinkedIn", 
-    type: "link", 
-    icon: FaLinkedin, 
-    size: "18px", 
-    url: "https://www.linkedin.com/in/amitnaik03/"
-  },
-  { 
-    name: "GitHub", 
-    type: "link", 
-    icon: FaGithub, 
-    size: "18px", 
-    url: "https://github.com/Amitnaik003"
-  },
-  { 
-    name: "Resume", 
-    type: "link", 
-    icon: FaServer, 
-    size: "18px", 
-    url: "https://drive.google.com/file/d/1RZ2-nTvW6_veE4JcORjSj_e6uS-26NSO/view?usp=sharing"
-  }
+  { name: "LinkedIn", type: "link", icon: FaLinkedin, size: "18px", url: socialLinks.linkedin },
+  { name: "GitHub", type: "link", icon: FaGithub, size: "18px", url: socialLinks.github },
+  { name: "Resume", type: "link", icon: FaServer, size: "18px", url: socialLinks.resumeLink }
 ];
-
 
 // =================================================================
 // 💼 PROJECT PORTFOLIO
@@ -262,32 +242,28 @@ export const education = {
 // =================================================================
 // 💼 WORK EXPERIENCE
 // =================================================================
-export const experience = {
-  companyName: "Freelance",
-  position: "Full-Stack Developer",
-  duration: "Feb 2025 – Present",
-  location: "",
-  achievements: [
-    "Built 2+ full-stack web applications using MERN stack for diverse clients",
-    "Delivered high-performance, responsive solutions with exceptional UX",
-  ],
-};
-
-export const secondExperience = {
-  companyName: "Ridvig Technologies",
-  position: "Full Stack Developer Intern",
-  duration: "May 2025 - Jul 2025",
-  location: "Remote",
-  achievements: [
-    "Built and maintained full-stack web applications using Django.",
-    "Gained hands-on experience in backend integration and deployment.",
-  ],
-};
-
-// Compatibility aliases (array expected by component)
-export const experienceList = [experience, secondExperience];
-export const experiences = experienceList;
-export default experienceList;
+export const experience = [
+  {
+    companyName: "Freelance",
+    position: "Full-Stack Developer",
+    duration: "Feb 2025 – Present",
+    location: "",
+    achievements: [
+      "Built 2+ full-stack web applications using MERN stack for diverse clients",
+      "Delivered high-performance, responsive solutions with exceptional UX",
+    ],
+  },
+  {
+    companyName: "Ridvig Technologies",
+    position: "Full Stack Developer Intern",
+    duration: "May 2025 - Jul 2025",
+    location: "Remote",
+    achievements: [
+      "Built and maintained full-stack web applications using Django.",
+      "Gained hands-on experience in backend integration and deployment.",
+    ],
+  }
+];
 
 // =================================================================
 // 📝 ADDITIONAL CONFIGURATION

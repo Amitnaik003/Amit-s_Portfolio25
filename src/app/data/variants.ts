@@ -1,7 +1,7 @@
 import { Variants } from "framer-motion";
 
-// Use a loose type for the easing so it satisfies the Transition type
-const easeOut: any = [0.22, 1, 0.36, 1];
+// Use a typed cubic-bezier tuple instead of `any`
+const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 export const headerVariants: Variants = {
   initial: { y: -5, opacity: 0, rotateY: 45 },

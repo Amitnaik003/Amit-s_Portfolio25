@@ -179,11 +179,10 @@ export const projects = [
       { name: "React.js", icon: FaReact, color: "#61DAFB" },
       { name: "Redux Toolkit", icon: SiRedux, color: "#764ABC" },
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" },
-      { name: "Socket.IO", icon: SiSocketdotio, color: "#010101" },
+      { name: "Socket.IO", icon: FaServer, color: "#010101" }, // replaced undefined SiSocketdotio
       { name: "Node.js", icon: FaNodeJs, color: "#83CD29" },
       { name: "Express.js", icon: SiExpress, color: "#C9D1D9" },
       { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
-      { name: "Socket.io", icon: SiSocketdotio, color: "#010101" },
       { name: "Google Maps API", icon: SiGooglemaps, color: "#4285F4" },
     ],
     liveLink: "#",

@@ -17,7 +17,6 @@ import {
   SiVercel, 
   SiPostman, 
   SiPostgresql,
-  SiSocketdotio,
   SiVite,
   SiGooglemaps
 } from 'react-icons/si';

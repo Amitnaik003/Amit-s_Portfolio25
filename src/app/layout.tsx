@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { personalInfo, siteConfig } from "./data/data";
-
+ 
 const outfit = Outfit({
   subsets: ["latin"],
   display: "swap",

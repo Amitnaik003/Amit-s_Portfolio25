@@ -1,5 +1,5 @@
 // =================================================================
-// 🎯 PORTFOLIO CONFIGURATION FILE
+// 🎯 PORTFOLIO CONFIGURATION FILE 
 // ================================================================= 
 // Update this file with your personal information to customize your portfolio.
 // Place all images in the "img" folder inside the "public" directory and reference them using the path: "/img/FILE_NAME".

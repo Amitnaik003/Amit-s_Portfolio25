@@ -6,7 +6,7 @@
 // This is the ONLY file you need to edit to customize your entire portfolio!
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit, FaGithub, FaFigma, FaServer, FaLinkedin } from 'react-icons/fa';
-import { 
+import {  
   SiTypescript, 
   SiNextdotjs, 
   SiTailwindcss, 

@@ -4,7 +4,7 @@ import { fadeInUpLeft } from "../data/variants";
 import { education } from "../data/data";
  
 const Education = () => {
-  return (
+  return ( 
     <motion.div
       variants={fadeInUpLeft}
       initial="hidden" 

@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <motion.div
       variants={fadeInUpLeft}
-      initial="hidden"
+      initial="hidden" 
       whileInView="visible"
       className="pb-4 border-b border-neutral-600"
     >

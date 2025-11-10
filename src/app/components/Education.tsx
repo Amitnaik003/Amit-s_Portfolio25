@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { fadeInUpLeft } from "../data/variants";
 import { education } from "../data/data";
-
+ 
 const Education = () => {
   return (
     <motion.div

@@ -9,7 +9,7 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit, FaGithub, FaFigma, 
 import {  
   SiTypescript, 
   SiNextdotjs, 
-  SiTailwindcss, 
+  SiTailwindcss,  
   SiFramer, 
   SiExpress, 
   SiMongodb, 
